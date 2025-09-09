@@ -30,3 +30,17 @@ cudaProfilerStop, cudaMalloc, cudaMemcpyAsync, cudaFree, cudaMallocHost, cudaPro
 Download and install the [CUDA Toolkit](https://developer.nvidia.com/cuda-downloads) for your corresponding platform.
 
 ## References (for more details)
+
+## Output
+main) root@C.25691976:/workspace/cuda-samples/Samples/0_Introduction/asyncAPI$ nvcc -I../../../Common asyncAPI.cu -o asyncAPI
+(main) root@C.25691976:/workspace/cuda-samples/Samples/0_Introduction/asyncAPI$ ls
+CMakeLists.txt  README.md  asyncAPI  asyncAPI.cu
+
+(main) root@C.25691976:/workspace/cuda-samples/Samples/0_Introduction/asyncAPI$ ./asyncAPI 
+[./asyncAPI] - Starting...
+GPU Device 0: "Pascal" with compute capability 6.0
+
+CUDA device [Tesla P100-SXM2-16GB]
+time spent executing by the GPU: 10.86
+time spent by CPU in CUDA calls: 0.04
+CPU executed 54023 iterations while waiting for GPU to finish
