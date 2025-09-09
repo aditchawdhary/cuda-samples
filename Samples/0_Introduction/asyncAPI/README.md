@@ -33,7 +33,7 @@ Download and install the [CUDA Toolkit](https://developer.nvidia.com/cuda-downlo
 
 ## Output
 ```
-main) root@C.25691976:/workspace/cuda-samples/Samples/0_Introduction/asyncAPI$ nvcc -I../../../Common asyncAPI.cu -o asyncAPI
+(main) root@C.25691976:/workspace/cuda-samples/Samples/0_Introduction/asyncAPI$ nvcc -I../../../Common asyncAPI.cu -o asyncAPI
 (main) root@C.25691976:/workspace/cuda-samples/Samples/0_Introduction/asyncAPI$ ls
 CMakeLists.txt  README.md  asyncAPI  asyncAPI.cu
 
